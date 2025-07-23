@@ -63,11 +63,11 @@ public class GuessGame {
 
             //END OF ROUND 
             if (guess != randomNumber) {
-                System.out.println("❌ You ran out of tries. The number was: " + randomNumber);
+                System.out.println("You ran out of tries. The number was: " + randomNumber);
             }
 
             // Print all guesses
-            System.out.println("📋 Your guesses were:");
+            System.out.println("Your guesses were:");
             for (int g : guessList) {
                 System.out.print(g + " ");
             }
